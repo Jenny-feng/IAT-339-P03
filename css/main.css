@@ -1,0 +1,73 @@
+
+
+body{
+    font-family: "Quicksand-Medium", Verdana, sans-serif;
+    background-color: #fcfff3;
+    padding: 1rem;
+}
+
+h1{
+    font-family: "Shrikhand-Regular", Verdana, sans-serif;
+    color: teal;
+}
+
+nav{
+    text-align: center;
+}
+
+#name{
+    font-family: "Shrikhand-Regular", Verdana, sans-serif;
+    color: teal;
+    font-size: 3vw;
+    text-decoration:none;
+    transition-property:color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+#name:active, #name:hover, #name:focus{
+    color: rgba(0, 128, 128, 0.495);
+}
+
+figure{
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+img{
+    border-radius: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.landing{
+    text-align: center;
+}
+
+#landing-img{
+    width: 34vw;
+    height: auto;
+}
+
+.landing-text{
+    font-size: 6vw;
+    display: inline-block;
+}
+
+.landing-nav{
+    margin-top: 1rem;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+    color:dimgray;
+    text-decoration: none;
+    transition-property:color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.nav-item:active, .nav-item:hover, .nav-item:focus{
+    color: rgba(0, 128, 128, 0.495);
+}

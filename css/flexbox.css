@@ -1,0 +1,63 @@
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+/* for the landing image */
+.landing{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#name{
+    flex-grow: 2;
+}
+
+.landing-text{
+    flex: 1;
+}
+
+/* for the landing bottom navigation */
+/* .landing-nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    text-align: center;
+} */
+
+
+/* media quaries starts here */
+
+@media only screen and (max-width: 1000px) {
+
+    .landing-nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+        text-align: center;
+    }
+
+    .nav-item{
+        padding: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .landing-nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:center;
+        text-align: center;
+    }
+
+}
