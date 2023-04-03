@@ -1,5 +1,4 @@
 
-
 body{
     font-family: "Quicksand-Medium", Verdana, sans-serif;
     background-color: #fcfff3;
@@ -11,6 +10,7 @@ h1{
     color: teal;
 }
 
+/* top main nav on the landing page */
 nav{
     text-align: center;
 }
@@ -18,7 +18,7 @@ nav{
 #name{
     font-family: "Shrikhand-Regular", Verdana, sans-serif;
     color: teal;
-    font-size: 3vw;
+    font-size: 3rem;
     text-decoration:none;
     transition-property:color;
     transition-duration: 0.3s;
@@ -29,6 +29,7 @@ nav{
     color: rgba(0, 128, 128, 0.495);
 }
 
+/* landing page image */
 figure{
     margin: 0;
     text-align: center;
@@ -41,13 +42,14 @@ img{
     display: inline-block;
 }
 
-.landing{
-    text-align: center;
-}
-
 #landing-img{
     width: 34vw;
     height: auto;
+}
+
+/* landing page image flexbox */
+.landing{
+    text-align: center;
 }
 
 .landing-text{
@@ -55,6 +57,8 @@ img{
     display: inline-block;
 }
 
+
+/* landing page bottom navigation */
 .landing-nav{
     margin-top: 1rem;
 }
@@ -69,5 +73,6 @@ img{
 }
 
 .nav-item:active, .nav-item:hover, .nav-item:focus{
+    text-decoration:underline;
     color: rgba(0, 128, 128, 0.495);
 }

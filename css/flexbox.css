@@ -20,19 +20,11 @@
     flex: 1;
 }
 
-/* for the landing bottom navigation */
-/* .landing-nav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items:center;
-    text-align: center;
-} */
 
 
 /* media quaries starts here */
 
+/* screen size smaller than 1000px show nevegation in rows*/
 @media only screen and (max-width: 1000px) {
 
     .landing-nav{
@@ -49,6 +41,7 @@
     }
 }
 
+/* screen size bigger than 1000px show nevegation in columns*/
 @media only screen and (min-width: 1000px) {
 
     .landing-nav{
