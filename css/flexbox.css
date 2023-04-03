@@ -24,9 +24,9 @@
 
 /* media quaries starts here */
 
-/* screen size smaller than 1000px show nevegation in rows*/
 @media only screen and (max-width: 1000px) {
 
+    /* screen size smaller than 1000px show nevegation in rows*/
     .landing-nav{
         display: flex;
         flex-wrap: wrap;
@@ -41,9 +41,9 @@
     }
 }
 
-/* screen size bigger than 1000px show nevegation in columns*/
 @media only screen and (min-width: 1000px) {
 
+    /* screen size bigger than 1000px show nevegation in columns*/
     .landing-nav{
         display: flex;
         flex-wrap: wrap;
