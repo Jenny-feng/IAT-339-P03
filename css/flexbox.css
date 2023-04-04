@@ -20,7 +20,21 @@
     flex: 1;
 }
 
+.social-media{
+    flex: 1;
+}
 
+.form{
+    flex: 1;
+}
+
+.project-img{
+    flex: 1;
+}
+
+.project-text{
+    flex: 1;
+}
 
 /* media quaries starts here */
 
