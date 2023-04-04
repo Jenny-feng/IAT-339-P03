@@ -65,6 +65,7 @@ img{
 
 .nav-item{
     font-size: 1.5rem;
+    padding: 0.25rem;
     color:dimgray;
     text-decoration: none;
     transition-property:color;
@@ -75,4 +76,23 @@ img{
 .nav-item:active, .nav-item:hover, .nav-item:focus{
     text-decoration:underline;
     color: rgba(0, 128, 128, 0.495);
+}
+
+
+/* Top navigation for the rest pages */
+.nav-main{
+    padding: 0 1rem;
+}
+
+.main{
+    padding: 0 1rem;
+}
+
+/* container for about flexbox */
+.container{
+    margin: 1.5rem 0;
+}
+
+.about-text{
+    max-width: 42vw;
 }
