@@ -117,7 +117,7 @@ img{
 
 /* container for about flexbox */
 .container{
-    margin: 1.5rem 0;
+    margin: 1.5rem 1rem;
 }
 
 .about-text{
@@ -180,6 +180,28 @@ img{
     opacity: 1;
 }
 
+.subtitle{
+    margin-left: 4rem;
+}
+
+#process-img{
+    max-width: 50vw;
+}
+
+.process{margin: 1rem 4rem;}
+
+.wireframe{
+    text-align: center;
+}
+
+.process-text{
+    text-align: left;
+    padding: 2rem;
+}
+
+#detail-img{
+    max-width: 30vw;
+}
 
 /* for project 2 */
 .ifframe-container{
@@ -197,7 +219,24 @@ section{
     margin: 2rem 4rem;
 }
 
+.to-top{
+    text-align: center;
+    transition: opacity .35s ease;
+}
 
+#to-top{
+    text-align: center;
+    transition: opacity .35s ease;
+}
+
+#to-top:hover{
+    opacity: 70%;
+}
+
+.paragraph{
+    max-width: 40vw;
+    text-align: left;
+}
 
 /* for the contct form */
 /* I learned the contact form from
@@ -212,20 +251,32 @@ input[type=text],textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     resize: vertical;
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    margin-top: 10px;
+    background-color: teal;
+    color: #fcfff3;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 1rem;
     cursor: pointer;
+    transition: background-color .35s ease;
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgba(0, 128, 128, 0.495);
   }
+
+  .icon{
+    border-radius: 0;
+    transition: opacity .35s ease;
+    margin: 2rem;
+}
+
+.icon:hover{
+    opacity: 70%;
+}

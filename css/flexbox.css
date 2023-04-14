@@ -36,6 +36,22 @@
     flex: 1;
 }
 
+.process-img{
+    flex: 1;
+}
+
+.process-text{
+    flex: 1;
+}
+
+.wireframe{
+    flex: 1;
+}
+
+.paragraph{
+    flex: 1;
+}
+
 /* media quaries starts here */
 
 @media only screen and (max-width: 1000px) {
@@ -124,6 +140,15 @@
     }
 
     .project-info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:flex-start;
+        text-align: center;
+    }
+
+    .para{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
