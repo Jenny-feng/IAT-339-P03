@@ -16,6 +16,10 @@ h2{
     margin-bottom: 0;
 }
 
+p{
+    max-width: 90vw;
+}
+
 a{
     color: teal;
     text-decoration: none;
@@ -55,6 +59,7 @@ figure{
 }
 
 img{
+    max-width: 80vw;
     border-radius: 2rem;
     text-align: center;
     display: inline-block;
@@ -100,6 +105,10 @@ img{
 /* Top navigation for the rest pages */
 .nav-main{
     padding: 0 1rem;
+    /* position: sticky;
+    z-index: 100;
+    border-radius: 2px;
+    box-shadow: 0px 1px 10px rgb(184, 189, 182); */
 }
 
 .main{
@@ -156,6 +165,39 @@ img{
 .project-img:hover{
     opacity: 70%;
 }
+
+/* for project 1*/
+.iat235-landing{
+    position: relative;
+    text-align: center;
+    transition: opacity .35s ease;
+}
+
+.iat235-landing:hover{
+    opacity: 70%;
+}
+.iat235-landing:hover .btn {
+    opacity: 1;
+}
+
+
+/* for project 2 */
+.ifframe-container{
+margin-top: 3rem;
+text-align: center;
+}
+
+.title{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+section{
+    margin: 2rem 4rem;
+}
+
+
 
 /* for the contct form */
 /* I learned the contact form from
