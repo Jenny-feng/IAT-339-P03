@@ -6,9 +6,27 @@
     <meta charset="utf-8">
     <title>Style Guide Template</title>
 
+    <link href="css/styleguide.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font.css">
+
 
   </head>
+
+  <header>
+    <nav class="nav-main">
+        <div class="logo">
+            <a href="index.html" id="name"> Jenny Feng</a>
+        </div>
+
+        <div class="menu">
+            <a href="about.html" class="nav-item main"> About me</a>
+            <a href="projects.html" class="nav-item main"> Projects</a>
+            <a href="contact.html" class="nav-item main"> Contact</a>
+        </div>
+
+    </nav>
+</header>
 
   <body>
 
@@ -39,26 +57,40 @@
         <h2>Navigation Button</h2>
 
         <h3>CSS selector:</h3>
-        <p>.button-nav</p>
+        <p>nav-item</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+        <code>&lt;a href="about.html" class="nav-item"&gt; Button&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="button" href="#">Default Button</a>
+        <a href="about.html" class="nav-item"> Nav Button</a>
 
       </section>
 
+      <!-- I learned the contact form from https://www.w3schools.com/howto/howto_css_contact_form.asp -->
       <section>
-        <h2>In-text link</h2>
-      </section>
+        <h2>Submit Buttons</h2>
 
-      <section>
-        <h2>Submit/Reset Buttons</h2>
-      </section>
+        <h3>CSS selector:</h3>
+        <p>input[type=submit]</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input type="submit" value="Submit"&gt;</code>
+        
+        <h3>Rendered element:</h3>
+        <input type="submit" value="Submit">
+        </section>
 
       <section>
         <h2>Text Input Field</h2>
+        <h3>CSS selector:</h3>
+        <p>input[type=text],textarea</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"&gt;&lt;/textarea&gt; </code>
+        
+        <h3>Rendered element:</h3>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       </section>
 
     </section>
@@ -71,18 +103,28 @@
 
       <section>
         <h2>Headings</h2>
+        <h3>CSS selector:</h3>
+        <p>h1 h2</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h1&gt;Example&lt;/h1&gt;</code>
+        <code>&lt;h2&gt;Example&lt;/h2&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h1>Example</h1>
+        <h2>Example</h2>
       </section>
 
       <section>
         <h2>Paragraphs</h2>
-      </section>
+        <h3>CSS selector:</h3>
+        <p>p</p>
 
-      <section>
-        <h2>Bulleted Lists</h2>
-      </section>
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;Example&lt;/p&gt;</code>
 
-      <section>
-        <h2>Numbered Lists</h2>
+        <h3>Rendered element:</h3>
+        <p>Example</p>
       </section>
 
     </section>
@@ -95,11 +137,34 @@
 
       <section>
         <h2>Main Navigation</h2>
-      </section>
+        <h3>CSS selector:</h3>
+        <p>nav-main</p>
 
-      <section>
-        <h2>Product Listing</h2>
-      </section>
+        <h3>Sample code:</h3>
+        <code>
+        &lt;nav class="nav-main"&gt;
+          &lt;div class="logo"&gt;
+            &lt;a href="index.html" id="name"> Jenny Feng&lt;/a&gt;
+            &lt;/div&gt;
+
+          &lt;div class="menu"&gt;
+            &lt;a href="about.html" class="nav-item main"> About me&lt;/a&gt;
+            &lt;a href="projects.html" class="nav-item main"> Projects&lt;/a&gt;
+            &lt;a href="contact.html" class="nav-item main"> Contact&lt;/a&gt;
+          &lt;/div&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <nav class="nav-main">
+          <div class="logo">
+              <a href="index.html" id="name"> Jenny Feng</a>
+          </div>
+
+          <div class="menu">
+              <a href="about.html" class="nav-item main"> About me</a>
+              <a href="projects.html" class="nav-item main"> Projects</a>
+              <a href="contact.html" class="nav-item main"> Contact</a>
+          </div>      </section>
 
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
